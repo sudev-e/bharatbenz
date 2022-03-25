@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-top{
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding: 0.8rem 0;
+    background: #a70e13;
+
+
+    
+}
+.head-top 
+h1, h2, h3, h4, h5, h6, p, div, ul, li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    line-height: 100%;
+}
+.tollfree {
+    display: inline-block;
+}
+.head-top .toll-free a {
+    font-size: 0.8rem;
+    line-height: 16.8px;
+    font-family: 'GOTH720N_4', Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+}
+.lefttopcol span{
+          font-size:0.8em ;
+}
+.righttopcol a{
+text-decoration: none;
+font-size:0.8em ;
+}
+.row1{
+    display: flex;
+}
+.section-footer p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+#sectionmap{
+    border-top: 0.5rem solid grey;
+}
+#sales span{
+display: block;
+font-weight: 500;
+}
+.head-down{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+.truck {
+    font-size:6em;
+    color: #d9d9d9;
+}
+.truck:hover{
+    color:#a70e13;
+}
+.truck span{
+    font-weight: 700;
+}
+.bus {
+    font-size:6em;
+    color: #d9d9d9;
+}
+.bus:hover{
+    color:#a70e13;
+}
+.bus span{
+    font-weight: 700;
+}
+#form {
+    width: 500p;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    width: 100%;
+    height: 3em;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
